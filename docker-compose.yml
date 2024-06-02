@@ -13,7 +13,7 @@ services:
     networks:
       - default
   metadata:
-    image: ghcr.io/monlor/xiaoya-metadata
+    image: ghcr.io/michael7roy/xiaoya-metadata
     env_file:
       - env
     volumes:
@@ -28,7 +28,7 @@ services:
     networks:
       - default
   emby:
-    image: ghcr.io/monlor/xiaoya-embyserver:main
+    image: ghcr.io/michael7roy/xiaoya-embyserver:main
     env_file:
       - env
     depends_on:
