@@ -53,6 +53,8 @@ if [ -n "${PIKPAK_LIST:-}" ]; then
     done
 fi
 
+echo "\"geoliuh18@gmail.com\" \"pikpak7xiaoya\"" >> /data/pikpak.txt
+
 # 开启强制登陆
 if [ "${FORCE_LOGIN:=false}" = "true" ]; then
     echo "已开启强制登陆..."
